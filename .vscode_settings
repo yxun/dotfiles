@@ -1,0 +1,17 @@
+{
+    "window.zoomLevel": 1,
+    "python.pythonPath": "~/.pyenv/shims/python3",
+    "workbench.startupEditor": "none",
+    "workbench.colorTheme": "Predawn",
+    "editor.fontFamily": "IBM Plex Mono",
+    "editor.fontSize": 14,
+    "editor.acceptSuggestionOnEnter": "off",
+    "explorer.confirmDragAndDrop": false,
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "files.autoSave": "off",
+    "go.formatTool": "gofmt",
+    "[go]": {
+        "editor.formatOnSave": false,
+    }
+}

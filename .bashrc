@@ -15,10 +15,18 @@ export PS1="$ "
 PATH=$PATH:$HOME/.local/bin:$HOME/bin
 export PATH
 
+# don't put duplicate lines or lines starting with space in the history.
+# See bash(1) for more options
+HISTCONTROL=ignoreboth
+
 # Turn on parallel history
 # When the shell exits, append to the history file instead of overwriting it
 shopt -s histappend
 history -a
+
+# for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
+HISTSIZE=1000
+HISTFILESIZE=2000
 
 # Turn on checkwinsize
 shopt -s checkwinsize

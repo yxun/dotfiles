@@ -23,9 +23,11 @@ HISTCONTROL=ignoreboth
 # When the shell exits, append to the history file instead of overwriting it
 shopt -s histappend
 history -a
+# Ignore commands
+HISTIGNORE="cd:ls:ps:clear:history"
 
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
-HISTSIZE=1000
+HISTSIZE=200
 HISTFILESIZE=2000
 
 # Turn on checkwinsize

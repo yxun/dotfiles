@@ -2,6 +2,8 @@
 :set ts=4
 " :set list
 
+:set history=20
+
 syntax on
 colorscheme predawn
 

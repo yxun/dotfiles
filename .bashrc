@@ -24,7 +24,7 @@ HISTCONTROL=ignoreboth
 shopt -s histappend
 history -a
 # Ignore commands
-HISTIGNORE="cd:ls:ps:clear:history"
+HISTIGNORE="cd:ls:ps:clear:history:exit"
 
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
 HISTSIZE=200
@@ -33,14 +33,11 @@ HISTFILESIZE=2000
 # Turn on checkwinsize
 shopt -s checkwinsize
 
-# pipenv shell completion
-eval "$(pipenv --completion)"
-
 # pyenv
-export PYENV_ROOT="$HOME/.pyenv"
-export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init -)"
+#export PYENV_ROOT="$HOME/.pyenv"
+#export PATH="$PYENV_ROOT/bin:$PATH"
+#eval "$(pyenv init -)"
 
 # Go
-export GOPATH=$HOME/go
+#export GOPATH=$HOME/go
 

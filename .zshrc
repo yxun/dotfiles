@@ -33,6 +33,9 @@ HISTORY_IGNORE="(cd|ls|ps|clear|history|exit)"
 HISTSIZE=200
 HISTFILESIZE=2000
 
+# JAVA HOME
+# export JAVA_HOME=/Library/Java/JavaVirtualMachines/adoptopenjdk-8-openj9.jdk/Contents/Home
+
 # Go
 #export GOPATH=$HOME/go
 #export PATH="/usr/local/sbin:$PATH"

@@ -33,6 +33,10 @@ HISTFILESIZE=2000
 # Turn on checkwinsize
 shopt -s checkwinsize
 
+# JAVA HOME
+# export JAVA_HOME=/Library/Java/JavaVirtualMachines/adoptopenjdk-8-openj9.jdk/Contents/Home
+
+
 # pyenv
 #export PYENV_ROOT="$HOME/.pyenv"
 #export PATH="$PYENV_ROOT/bin:$PATH"

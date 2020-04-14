@@ -38,18 +38,3 @@ HISTFILESIZE=2000
 
 # Go
 #export GOPATH=$HOME/go
-#export PATH="/usr/local/sbin:$PATH"
-
-# pyenv 
-#eval "$(pyenv init -)"
-
-# nvm
-#export NVM_DIR="$HOME/.nvm"
-#[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"   # This loads nvm
-#[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-# zlib
-#export LDFLAGS="-L/usr/local/opt/zlib/lib"
-#export CPPFLAGS="-I/usr/local/opt/zlib/include"
-#export PKG_CONFIG_PATH="/usr/local/opt/zlib/lib/pkgconfig"
-
